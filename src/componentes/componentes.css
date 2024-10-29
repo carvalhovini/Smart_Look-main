@@ -1,0 +1,264 @@
+/*---------------- Navbar -----------*/
+.navbar {
+    grid-area: navbar;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #b1b1b1;
+    padding: 0;
+}
+
+.box1 {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #00ccff;
+    text-decoration: none;
+    font-weight: 400; /* Ajustado para consistência de espessura */
+}
+
+.navbar a:hover {
+    color: #00701c;
+}
+
+.navbar h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 65px;
+    border-radius: 1%;
+    padding: 20px;
+    font-size: 25px;
+    color: #00aeff;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.imgperfil {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #00aeff;
+    margin: 10px;
+}
+
+.search_bar {
+    width: 400px;
+    height: 35px;
+    border-radius: 3px; /* Melhoria de borda arredondada */
+    border: 2px solid #00aeff;
+    color: #00ccff;
+    font-size: 15px;
+}
+
+.search-btn {
+    height: 35px;
+    width: 35px;
+    border-radius: 3px; /* Melhor consistência */
+    border: 2px solid #00aeff;
+    background-color: #fff;
+    color: #00aeff;
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Menu dropdown */
+.menu {
+    font-size: 15px;
+    list-style: none;
+    border: 1px solid #ffffff;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    font-size: 15px;
+}
+
+.menu li a:hover {
+    background: #00ccff;
+    color: #000;
+}
+
+.menu li ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    display: block;
+    width: 100px; /* Ajuste de largura para exibir melhor os itens */
+}
+
+/*------------------ sub Navbar ----------------*/
+.sub_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background: #093028;
+    background: -webkit-linear-gradient(to right, #237A57, #093028);
+    background: linear-gradient(to right, #237A57, #093028);
+}
+
+.sub_navbar a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+.h:hover {
+    color: #00aad4;
+}
+
+/*------------- Box da função -------------*/
+
+.min_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 220px;
+    height: 380px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(3, 3, 3, 0.863);
+    margin: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.min_box img {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    border: 2px solid #00701c;
+}
+
+.min_box h1 {
+    color: #00ad1d;
+    font-size: 20px;
+}
+
+.container_elements {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container_elements label {
+    color: #00701c;
+    font-size: 17px;
+}
+
+.container_elements p {
+    color: #00aad4;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+/* ------------------------------------ */
+/* Inicio do botão */
+
+.button-green {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-blue {
+    background-color: #4c9baf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-black {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-red {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-yellow {
+    background-color: #d6a400;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-blue-lg {
+    background-color: #4c9baf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
